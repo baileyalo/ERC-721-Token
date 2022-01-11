@@ -1,1 +1,1 @@
-# Simple NFT n
+# Simple NFT
