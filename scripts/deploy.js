@@ -6,7 +6,6 @@ async function main() {
   await mNFT.deployed()
   console.log("Contract deployed to address:", mNFT.address)
 }
-
 main()
   .then(() => process.exit(0))
   .catch((error) => {
