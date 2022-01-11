@@ -12,7 +12,8 @@ const contractAddress = "0x5A78B6BD2322220b86aAB07e708EEC24A1C5A918"
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 
-   async function mintNFT(tokenURI) {
+   async function mintNFT() {
+     const tokenURI = "https://gateway.pinata.cloud/ipfs/Qmcy1NtKnpeduKDFXjLGHnqTa6kN4tzQ8ekUsMVHysf8Qj";
      const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, 'latest'); //get latest nonce
 
    //the transaction
