@@ -1,15 +1,12 @@
-# Basic Sample Hardhat Project
+# ERC-721 Token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This is a simple NFT token that is deployed to rinkeby testnet 
 
-Try running some of the following tasks:
+How to run :
 
-```shell
-npx hardhat accounts
+npm install dependencies
+
 npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+
+npx hardhat --network rinkeby run scripts/deploy.js
+
