@@ -10,3 +10,4 @@ npx hardhat compile
 
 npx hardhat --network rinkeby run scripts/deploy.js
 
+node scripts/mint.js 
