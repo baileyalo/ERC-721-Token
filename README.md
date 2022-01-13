@@ -8,6 +8,8 @@ npm install dependencies
 
 npx hardhat compile
 
+DEPLOY
 npx hardhat --network rinkeby run scripts/deploy.js
 
+MINT
 node scripts/mint.js 
